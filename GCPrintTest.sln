@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCPrintTest", "GCPrintTest\GCPrintTest.csproj", "{BAFD5635-30F2-4D3E-B595-39D2FDBC9FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListCloudPrinters", "..\GoogleCloudPrint\ListCloudPrinters\ListCloudPrinters.csproj", "{18E85084-B64F-4DB9-9787-D2299E12D795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCPrintTestConsole", "GCPrintTestConsole\GCPrintTestConsole.csproj", "{19D684B0-EC1F-4505-B84E-1F52D4920B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptShare", "..\GoogleCloudPrint\AcceptShare\AcceptShare.csproj", "{D014E43E-3915-4353-BF4D-FD1669C2EC96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleCloudPrint", "..\..\NotMyCode\GoogleCloudPrint-master\GoogleCloudPrint.csproj", "{E43AA5B3-B9C2-4477-AA83-5CD26EDEADC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAFD5635-30F2-4D3E-B595-39D2FDBC9FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFD5635-30F2-4D3E-B595-39D2FDBC9FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFD5635-30F2-4D3E-B595-39D2FDBC9FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFD5635-30F2-4D3E-B595-39D2FDBC9FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E85084-B64F-4DB9-9787-D2299E12D795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E85084-B64F-4DB9-9787-D2299E12D795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E85084-B64F-4DB9-9787-D2299E12D795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E85084-B64F-4DB9-9787-D2299E12D795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D684B0-EC1F-4505-B84E-1F52D4920B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D684B0-EC1F-4505-B84E-1F52D4920B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D684B0-EC1F-4505-B84E-1F52D4920B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D684B0-EC1F-4505-B84E-1F52D4920B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D014E43E-3915-4353-BF4D-FD1669C2EC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D014E43E-3915-4353-BF4D-FD1669C2EC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D014E43E-3915-4353-BF4D-FD1669C2EC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D014E43E-3915-4353-BF4D-FD1669C2EC96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E43AA5B3-B9C2-4477-AA83-5CD26EDEADC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43AA5B3-B9C2-4477-AA83-5CD26EDEADC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43AA5B3-B9C2-4477-AA83-5CD26EDEADC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43AA5B3-B9C2-4477-AA83-5CD26EDEADC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

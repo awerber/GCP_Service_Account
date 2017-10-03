@@ -1,0 +1,33 @@
+"capabilities":
+{\"printer\":
+	{\"vendor_capability\":
+		[{
+			\"id\":\"__goog__drive_file_name\",
+			\"display_name\":\"Google Drive File Name\",
+			\"type\":\"TYPED_VALUE\",
+			\"typed_value_cap\":{\"value_type\":\"STRING\"}
+		}],
+	\"supported_content_type\":[
+					{\"content_type\":\"application/pdf\"},
+					{\"content_type\":\"image/png\"},
+					{\"content_type\":\"image/jpeg\"}
+				]
+	},
+
+\"version\":\"1.0\"},
+
+
+\"displayName\":\"Save to Google Docs\",
+\"description\":\"Save your document as a PDF in Google Docs\",
+\"capsHash\":\"\",
+\"updateTime\":\"1311368403894\",
+\"type\":\"DOCS\",
+\"tags\":[\"save\",\"docs\",\"pdf\",\"google\"],
+\"proxy\":\"google-wide\",
+\"createTime\":\"1311368403894\",
+\"defaultDisplayName\":\"Save to Google Docs\",
+\"name\":\"Save to Google Docs\",
+\"connectionStatus\":\"ONLINE\",
+\"id\":\"__google__docs\",
+\"status\":\"\",
+\"accessTime\":\"1311368403894\"}]
