@@ -80,7 +80,7 @@ namespace GoogleCloudPrint
                 p.Parameters.Add(new PostDataParam { Name = "tag", Value = pReg.tag, Type = PostDataParamType.Field });
                 p.Parameters.Add(new PostDataParam { Name = "proxy", Value = pReg.proxy, Type = PostDataParamType.Field });
                 //p.Parameters.Add(new PostDataParam { Name = "capabilities", Value = pReg.capabilities, Type = PostDataParamType.Field });
-                p.Parameters.Add(new PostDataParam { Name = "capabilities", Value = "{\"capabilities\":[{}]}", Type = PostDataParamType.Field });
+                p.Parameters.Add(new PostDataParam { Name = "capabilities", Value = "[{}]", Type = PostDataParamType.Field });
 
                 pReg = GCPServiceCall<UnregisteredCloudPrinter>("register", p);
             }
